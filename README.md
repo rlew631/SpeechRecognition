@@ -10,6 +10,7 @@ The current accuracy (based on an unseen data set) tends to be around 95%
 * discretize the training and implementation of the neural net
 * implement in tensorflowRT in order to process continuous speech
 * tqdm for training progress (maybe)
+* put in draw.io diagram once uploaded to github and there's an actual link
 
 ## Fix:
 * P1 - occassionally (usually one per training) invalid file names are selected. This results in an error message about an attempted divide by zero operation
