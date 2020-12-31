@@ -9,7 +9,7 @@ The current accuracy (based on an unseen data set) tends to be around 95% for th
 ## Add:
 * discretize the training and implementation of the neural net
 * implement in tensorflowRT in order to process continuous speech
-* add conv2d layer(s) or copy architecture from original .py file to the notebook
 
 ## Fix:
 * P1 - "divide by zero" error when normalizing. This means max and min vals are the same and the sound file is empty or there was an error reading it. Update to not append these
+* P1 - list to array operation for sound clips occassionaly errors out. likely due to nans/invalid images
