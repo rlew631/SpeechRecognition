@@ -11,7 +11,5 @@ The current accuracy (based on an unseen data set) tends to be around 95% for th
 * implement in tensorflowRT/TFLite in order to process continuous speech
 
 ## References:
-* [custom reducelronplateau callback](https://stackoverflow.com/questions/52227286/reducelronplateau-fallback-to-the-previous-weights-with-the-minimum-acc-loss)
-<!--
-* [one hot encoding with keras]
--->
+* [Custom ReduceLROnPlateau Callback](https://stackoverflow.com/questions/52227286/reducelronplateau-fallback-to-the-previous-weights-with-the-minimum-acc-loss)
+* [One Hot Encoding with Keras](https://www.educative.io/edpresso/how-to-perform-one-hot-encoding-using-keras)
