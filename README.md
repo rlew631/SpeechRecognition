@@ -9,3 +9,9 @@ The current accuracy (based on an unseen data set) tends to be around 95% for th
 ## Add:
 * discretize the training and implementation of the neural net
 * implement in tensorflowRT/TFLite in order to process continuous speech
+
+## References:
+* [custom reducelronplateau callback](https://stackoverflow.com/questions/52227286/reducelronplateau-fallback-to-the-previous-weights-with-the-minimum-acc-loss)
+<!--
+* [one hot encoding with keras]
+-->
