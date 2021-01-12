@@ -182,15 +182,11 @@ for i in range(int(len(folder_names))):
 #create keras model
 num_classes = 30
 
-y_train = keras.utils.to_categorical(y_train, num_classes)
-#converts the data set so each integer(?) input is scaled from 0 to num_classes ???
-#could also be a dictionary
 x_train = x_train.reshape(x_train.shape[0], imheight, imwidth, 1)
+y_train = keras.utils.to_categorical(y_train, num_classes)
 
-y_test = keras.utils.to_categorical(y_test, num_classes)
-#converts the data set so each integer(?) input is scaled from 0 to num_classes ???
-#could also be a dictionary
 x_test = x_train.reshape(x_test.shape[0], imheight, imwidth, 1)
+y_test = keras.utils.to_categorical(y_test, num_classes)
 
 print("x and y training/testing data done and formatted, starting keras sequential model function now")
 
