@@ -1,15 +1,10 @@
-#import pyaudio
 import matplotlib.pyplot as plt
-from scipy import signal
+# from scipy import signal
 from scipy.io import wavfile
 import os
 import numpy as np
 import random
 from skimage.measure import block_reduce
-
-#for excel editing
-from openpyxl import Workbook
-
 
 #To find the duration of wave file in seconds
 import wave
