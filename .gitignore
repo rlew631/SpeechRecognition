@@ -5,3 +5,4 @@ test
 tensorflow*
 MyModel_tf
 model*
+*.db
